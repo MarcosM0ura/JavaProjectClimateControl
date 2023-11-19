@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewTelaLoginTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_tela_login_titulo"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textViewTelaLoginNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_tela_login_usuario"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/editTextUsuarioTelaLogin"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@color/white"
+        android:hint="Insira seu usuário"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_tela_login_senha"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextSenhaTelaLogin"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Insira sua senha"
+        android:inputType="numberPassword" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonEntrarTelaLoginBtn"
+        android:layout_width="380dp"
+        android:layout_height="55dp"
+        android:text="@string/activity_main_tela_login_botao_entrar"
+        android:textSize="19sp"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonbackground"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewTelaLoginEsqueciSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_tela_login_esqueci_senha"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        android:layout_marginTop="40dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewTelaLoginRegistrarNovoUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_tela_login_registrar_novo_usuario"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+</LinearLayout>

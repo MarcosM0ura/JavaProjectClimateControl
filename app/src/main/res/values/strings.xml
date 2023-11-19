@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">JavaProject-ClimateControl</string>
+
+    <string name="activity_main_tela_login_titulo">Climate Control</string>
+    <string name="activity_main_tela_login_usuario">Usuário</string>
+    <string name="activity_main_tela_login_senha">Senha</string>
+    <string name="activity_main_tela_login_botao_entrar">Entrar</string>
+    <string name="activity_main_tela_login_esqueci_senha">Esqueci minha senha.</string>
+    <string name="activity_main_tela_login_registrar_novo_usuario">Registrar-se.</string>
+
+    <string name="acivity_main_falha_autenticacao">Usuário ou Senha incorreto!</string>
+
+    <string name="acitivity_main_tela_lista_equipamentos_novo">Novo Equipamento</string>
+    <string name="acitivity_main_tela_lista_equipamentos_equipamento_cadastrados">Equipamentos Cadastrados</string>
+
+    <string name="activity_main_tela_cadatrar_equipamento">Cadastrar Novo Equipamento</string>
+    <string name="activity_main_tela_cadastro_equipamento_marca">Marca</string>
+    <string-array name="activity_tela_cadastro_equipamento_lista_marca">
+        <item>Selecione a marca</item>
+        <item>Eletrolux</item>
+        <item>Phillips</item>
+        <item>Sansumg</item>
+        <item>PSJ</item>
+        <item>LG</item>
+        <item>Brastemp</item>
+        <item>Midea</item>
+        <item>Elgin</item>
+        <item>Carrier</item>
+        <item>Consul</item>
+        <item>Maxflex</item>
+        <item>Gree</item>
+        <item>Komeco</item>
+        <item>Comfee</item>
+    </string-array>
+    <string name="activity_main_tela_cadastro_equipamento_tipo">Tipo</string>
+    <string-array name="activity_tela_cadastro_equipamento_lista_tipo">
+        <item>Selecione o tipo</item>
+        <item>Janela</item>
+        <item>Split High Wall</item>
+        <item>Mult Split</item>
+        <item>Split Piso Teto</item>
+        <item>Split Cassete</item>
+        <item>Portatil</item>
+        <item>Split Inverter</item>
+    </string-array>
+    <string name="activity_main_tela_cadastro_equipamento_local">Local</string>
+    <string name="activity_main_tela_cadastro_equipamento_salvar">Salvar</string>
+    <string name="activity_main_tela_cadastro_equipamento_excluir">Excluir</string>
+
+    <string name="activity_main_salvo_sucesso">Salvo com Sucesso!</string>
+    <string name="activity_main_campo_vazios">Preencha todos os campos!</string>
+    <string name="activitu_main_erro_salvar">Erro ao salvar.</string>
+
+    <string name="activity_main_tela_cadastro_excluir_equipamento">Equipamento Excluido com Sucesso!</string>
+    <string name="activity_main_tela_cadastro_falha_excluir_equipamento">Falha ao Excluir Equipamento.</string>
+
+    <string name="activity_main_tela_controle_dispositivos_voltar">Tela de Seleçao</string>
+    <string name="activity_main_tela_controle_dispositivos_temperatura">Temperatura atual</string>
+    <string name="activity_main_tela_controle_dispositivos_aumentar">Aumentar</string>
+    <string name="activity_main_tela_controle_dispositivos_diminuir">Diminuir</string>
+    <string name="activity_main_tela_controle_dispositivos_OnOff">On / Off</string>
+
+    <string name="activity_main_tela_selecao_lista_equipamentos_cadastrados">Equipamentos Cadastrados</string>
+    <string name="activity_main_tela_selecao_cadastrar_novo">Cadastrar Novo Dispositivo</string>
+    <string name="activity_main_tela_selecao_tela_controle">Controle</string>
+
+</resources>

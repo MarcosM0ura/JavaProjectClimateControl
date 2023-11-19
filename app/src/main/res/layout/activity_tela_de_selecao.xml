@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    android:orientation="vertical"
+    tools:context=".TelaDeSelecao">
+
+    <Button
+        android:id="@+id/buttonNovoDispoTelaSelecao"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_adicionar"
+        android:drawableTint="@color/white"
+        android:text="@string/activity_main_tela_selecao_cadastrar_novo" />
+
+    <Button
+        android:id="@+id/btnListaEquipTelaSelecao"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/is_lista"
+        android:drawableTint="@color/white"
+        android:text="@string/activity_main_tela_selecao_lista_equipamentos_cadastrados" />
+
+    <Button
+        android:id="@+id/buttonTelaSelecaoTelaControle"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_controle"
+        android:drawableTint="@color/white"
+        android:text="@string/activity_main_tela_selecao_tela_controle" />
+
+</LinearLayout>
